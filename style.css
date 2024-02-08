@@ -135,6 +135,9 @@ blockquote, q {
 .content_sobremim{
   color: white;
   background-color: #228296;
+  margin-left: -192px;
+  margin-right:-192px ;
+  padding: 48px 192px;
 }
 .content_contato{
   color: #777777;
