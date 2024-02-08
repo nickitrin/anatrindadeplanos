@@ -114,7 +114,29 @@ blockquote, q {
 }
 .body_content{
   margin: 40px 192px 40px 192px;
+  font-size: 12px;
+}
+.title_description_planodesaude{
+  font-size: 16px;
+}
+.description_planosdesaude{
+  font-size: 12px;
+  color: #777777;
 }
 .title_listplanosdesaude{
+  font-size: 16px;
   color: #777777;
+}
+.list_planos{
+  font-size: 14px;
+  color: #777777;
+  list-style-type: disc;
+}
+.content_sobremim{
+  color: white;
+  background-color: #228296;
+}
+.content_contato{
+  color: #777777;
+  font-size: 12px;
 }
