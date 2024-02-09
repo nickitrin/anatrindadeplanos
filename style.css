@@ -135,6 +135,8 @@ blockquote, q {
   list-style-type: disc;
 }
 .content_sobremim{
+  display: flex;
+  flex-direction: row;
   color: white;
   background-color: #228296;
   margin-left: -192px;
