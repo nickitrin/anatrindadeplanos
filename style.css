@@ -113,24 +113,37 @@ blockquote, q {
   height: 70px;
 }
 .body_content{
-  margin: 40px 192px 40px 192px;
+  margin: 0px 192px 40px 192px;
   font-size: 12px;
+}
+.planos_de_saude{
+  margin-bottom: 16px;
 }
 .title_description_planodesaude{
   font-size: 16px;
   margin-bottom: 16px;
+  margin-top: 40px;
 }
 .description_planosdesaude{
   font-size: 12px;
   margin-bottom: 24px;
   color: #777777;
 }
+.content_listplanos{
+  font-family: 'Inter';
+}
 .title_listplanosdesaude{
+  margin: 32px 0 24px 0;
+  font-weight: 600;
   font-size: 16px;
   color: #777777;
 }
 .list_planos{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   font-size: 14px;
+  margin-left: 16px;
   color: #777777;
   list-style-type: disc;
 }
@@ -146,4 +159,8 @@ blockquote, q {
 .content_contato{
   color: #777777;
   font-size: 12px;
+}
+.images_planos{
+  display: flex;
+  gap: 48px;
 }
