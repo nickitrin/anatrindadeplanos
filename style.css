@@ -118,9 +118,11 @@ blockquote, q {
 }
 .title_description_planodesaude{
   font-size: 16px;
+  margin-bottom: 16px;
 }
 .description_planosdesaude{
   font-size: 12px;
+  margin-bottom: 24px;
   color: #777777;
 }
 .title_listplanosdesaude{
