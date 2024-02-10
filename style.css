@@ -112,10 +112,16 @@ blockquote, q {
   padding:0 40px 0 40px;
   height: 70px;
 }
+
+
 .body_content{
-  margin: 0px 192px 40px 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 16vw;
   font-size: 12px;
 }
+
 .planos_de_saude{
   margin-bottom: 16px;
 }
@@ -128,6 +134,10 @@ blockquote, q {
   font-size: 12px;
   margin-bottom: 24px;
   color: #777777;
+}
+.images_planos{
+  display: flex;
+  gap: 48px;
 }
 .content_listplanos{
   font-family: 'Inter';
@@ -147,20 +157,54 @@ blockquote, q {
   color: #777777;
   list-style-type: disc;
 }
-.content_sobremim{
+.container_sobremim{
   display: flex;
   flex-direction: row;
   color: white;
+  font-family: 'Inter';
+  font-weight: 300;
+  gap: 54px;
   background-color: #228296;
-  margin-left: -192px;
-  margin-right:-192px ;
-  padding: 48px 192px;
+  padding: 48px 100vw;
+}
+.text_sobremim{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+.title_sobremim{
+  font-size: 16px;
+  font-weight: 200;
+}
+.content_sobremim{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  width: 715px;
+}
+.container_contato{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-bottom: 128px;
+  font-family: 'Inter';
 }
 .content_contato{
+  display: flex;
+  flex-direction: column;
   color: #777777;
+  gap: 16px;
   font-size: 12px;
 }
-.images_planos{
+
+.content_footer{
   display: flex;
-  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-size: 12px;  
+  background-color: #d9d9d9;
+  color: #777777;
+  height: 72px;
+
 }
