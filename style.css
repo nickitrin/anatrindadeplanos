@@ -21,6 +21,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 }
 body {
+  overflow-x: hidden;
 	line-height: 1;
 	color: black;
 	background: white;
@@ -115,6 +116,7 @@ blockquote, q {
 
 
 .body_content{
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,3 +210,18 @@ blockquote, q {
   height: 72px;
 
 }
+
+button_whatsapp{
+  display: block; height: 2500px;}
+  
+  #myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 9999;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+
+  }
