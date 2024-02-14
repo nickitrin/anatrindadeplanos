@@ -253,7 +253,7 @@ button_whatsapp{
 
     .banner_principal{
       overflow:hidden;
-      height: 180px;
+      height: 41.9vw;
       background-position: -50vw;
       justify-content: center;
     }
@@ -303,6 +303,6 @@ button_whatsapp{
       font-weight: 200
     }
     .content_sobremim{
-      width: 363px;
+      width: 84.41vw;
     }
   }
