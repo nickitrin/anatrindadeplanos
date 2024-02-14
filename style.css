@@ -129,6 +129,8 @@ blockquote, q {
   margin-bottom: 40px;
 }
 .title_description_planodesaude{
+  font-family: 'Manrope';
+  font-weight: 200;
   font-size: 16px;
   margin-bottom: 16px;
   margin-top: 40px;
@@ -174,6 +176,9 @@ blockquote, q {
   display: flex;
   flex-direction: column;
   gap:24px;
+}
+.title_sobremim2{
+  display: none;
 }
 .title_sobremim{
   font-size: 16px;
@@ -253,17 +258,20 @@ button_whatsapp{
       justify-content: center;
     }
     .body_content{
-
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       align-items: flex-start;
-      margin: 0 8.14vw;
+      margin:  50px 8.14vw 0 8.14vw;
       font-size: 12px;
     }
     .planos_de_saude{
       display: flex;
       flex-direction: column;
+    }
+    .title_description_planodesaude{
+      font-size: 6.96vw;
+      margin-top: 0;
     }
     .image_sobremim1{
       width: 28.8vw;
@@ -274,12 +282,25 @@ button_whatsapp{
     .images_planossize{
       width: 19.53vw;
     }
+    .list_planos{
+      height: 95px;
+      flex-wrap: wrap;
+    }
     .container_sobremim{
       flex-direction: column-reverse;
       align-items: center;
       gap: 20px;
-      margin: 0 -8.14vw;
+      margin: 0 -8.14vw 50px -8.14vw;
       padding: 30px 8.14vw;
+    }
+    .title_sobremim{
+      display: none;
+    }
+    .title_sobremim2{
+      display: flex;
+      font-size:6.96vw;
+      font-family: 'Manrope';
+      font-weight: 200
     }
     .content_sobremim{
       width: 363px;
