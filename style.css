@@ -258,23 +258,28 @@ button_whatsapp{
       flex-direction: column;
       flex-wrap: wrap;
       align-items: flex-start;
-      margin: 0 0;
+      margin: 0 8.14vw;
       font-size: 12px;
     }
     .planos_de_saude{
       display: flex;
       flex-direction: column;
     }
+    .image_sobremim1{
+      width: 28.8vw;
+    }
     .images_planos{
-      gap: 5px
+      gap: 1.86vw;
     }
     .images_planossize{
-      width: 19.5%;
+      width: 19.53vw;
     }
     .container_sobremim{
       flex-direction: column-reverse;
+      align-items: center;
       gap: 20px;
-      padding: 30px 0px;
+      margin: 0 -8.14vw;
+      padding: 30px 8.14vw;
     }
     .content_sobremim{
       width: 363px;
