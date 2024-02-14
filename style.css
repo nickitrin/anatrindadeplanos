@@ -225,6 +225,58 @@ button_whatsapp{
     cursor: pointer;
   }
   
-  #myBtn:hover {
+  @media (max-width: 767px) {
+    .body_page{
+      width: 100vw;
+      margin: 0 0;
+    }
+    .menu_superior{
+      display: none;
+    }
+    .header{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .logo{
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+    .logo_anatrindade{
+      font-size: 30px;
+    }
 
+    .banner_principal{
+      overflow:hidden;
+      height: 180px;
+      background-position: -50vw;
+      justify-content: center;
+    }
+    .body_content{
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin: 0 0;
+      font-size: 12px;
+    }
+    .planos_de_saude{
+      display: flex;
+      flex-direction: column;
+    }
+    .images_planos{
+      gap: 5px
+    }
+    .images_planossize{
+      width: 19.5%;
+    }
+    .container_sobremim{
+      flex-direction: column-reverse;
+      gap: 20px;
+      padding: 30px 0px;
+    }
+    .content_sobremim{
+      width: 363px;
+    }
   }
