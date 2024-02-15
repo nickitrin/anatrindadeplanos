@@ -259,11 +259,11 @@ button_whatsapp{
       display: flex;
       align-self: flex-start;
       padding:0 9.186vw 0 9.186vw;
-    }.
+    }
 
     .banner_principal{
       overflow:hidden;
-      height: 41.9vw;
+      height: 41.8vw;
       background-position: -50vw;
       justify-content: center;
     }
