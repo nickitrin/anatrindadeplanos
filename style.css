@@ -242,16 +242,34 @@ button_whatsapp{
   }
   
   @media (max-width: 767px) {
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
     .body_page{
       width: 100vw;
       margin: 0 0;
     }
     .menu_superior{
       display: none;
+      animation: fadeIn 0.4s ease;
+      padding:  7.4vw 31.7vw;
+      border-top: 1px solid #e3e3e3; 
+    }
+    .conteudo_menu{
+      display: flex;
+      flex-direction: column;
+      gap:3.7vw;
     }
     .header{
       gap: 0;
-      margin: 11.63vw 0 5.81vw 0;
+      margin: 11.63vw 0 0 0;
       flex-wrap: wrap;
       justify-content: flex-end;
     }
@@ -259,6 +277,7 @@ button_whatsapp{
       display: flex;
       flex-direction: column;
       align-self: center;
+      margin: 0 0 5.81vw 0;
     }
     .logo_anatrindade{
       font-size: 30px;
