@@ -82,6 +82,9 @@ blockquote, q {
 .menu_superior{
   display: flex;
 }
+.icone_menu{
+  display: none;
+}
 .conteudo_menu {
     list-style-type: none;
     display: flex;
@@ -98,7 +101,7 @@ blockquote, q {
   background-image: url("banner-1.png");
   background-size: cover;
   background-position: center center;
-  height: 36vh;
+  height: 23.25vw;
 }
 .button_cotarplano{
   display: flex;
@@ -239,8 +242,10 @@ button_whatsapp{
       display: none;
     }
     .header{
+      gap: 0;
+      margin: 11.63vw 0 5.81vw 0;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-end;
     }
     .logo{
       display: flex;
@@ -250,6 +255,11 @@ button_whatsapp{
     .logo_anatrindade{
       font-size: 30px;
     }
+    .icone_menu{
+      display: flex;
+      align-self: flex-start;
+      padding:0 9.186vw 0 9.186vw;
+    }.
 
     .banner_principal{
       overflow:hidden;
