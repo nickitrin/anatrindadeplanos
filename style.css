@@ -71,7 +71,10 @@ blockquote, q {
   margin-bottom: 0px;
 
   }
-
+.text_menudec{
+  text-decoration: none;
+  color: black;
+}
 .logo_corretoradeplanos{
     font-family: 'Manrope';
     font-weight: 200;
@@ -218,6 +221,11 @@ blockquote, q {
   color: #777777;
   height: 72px;
 
+}
+
+#contato{
+  display: flex;
+  align-self: flex-start;
 }
 
 button_whatsapp{
