@@ -242,15 +242,6 @@ button_whatsapp{
   }
   
   @media (max-width: 767px) {
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
     
     .body_page{
       width: 100vw;
@@ -258,7 +249,6 @@ button_whatsapp{
     }
     .menu_superior{
       display: none;
-      animation: fadeIn 0.4s ease;
       padding:  7.4vw 31.7vw;
       border-top: 1px solid #e3e3e3; 
     }
