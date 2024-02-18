@@ -56,8 +56,9 @@ blockquote, q {
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
-    gap: 104px;
-    margin: 70px 64px 32px 64px;
+    background-color: white;
+    gap: 7vw;
+    margin: 3.8vw 4.4vw 2.2vw 4.4vw;
   }
 
 .logo{
@@ -67,7 +68,7 @@ blockquote, q {
 
 .logo_anatrindade{
   font-weight: 400;
-  font-size: 37px;
+  font-size: 2.5vw;
   margin-bottom: 0px;
 
   }
@@ -79,7 +80,7 @@ blockquote, q {
     font-family: 'Manrope';
     font-weight: 200;
     margin-top:5px;
-    font-size: 13px;
+    font-size: 0.9vw;
     color: #777777;
 }
 .menu_superior{
@@ -88,14 +89,17 @@ blockquote, q {
 .icone_menu{
   display: none;
 }
+.espaco_menu{
+  height: 145px;
+}
 .conteudo_menu {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     font-family: 'Manrope';
-    font-size: 13px;
+    font-size: 0.9vw;
     font-weight: 300;
-    gap:200px;
+    gap:10vw;
   }
 .banner_principal{
   display: flex;
@@ -104,15 +108,14 @@ blockquote, q {
   background-image: url("banner-1.png");
   background-size: cover;
   background-position: center center;
-  height: 23.25vw;
+  height: 19vw;
 }
 .button_cotarplano{
   display: flex;
   align-items: center;
   font-weight: 700;
   font-size: 16px;
-  margin-bottom: 16px;
-  background: rgb(2,0,36);
+  margin-bottom: 25px;
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(35,130,150,1) 0%, rgba(32,131,152,1) 100%);
   color: white;
   cursor: pointer;
@@ -120,13 +123,16 @@ blockquote, q {
   padding:0 40px 0 40px;
   height: 70px;
 }
+.button_cotarplano:hover {
+  background: #247485;
+}
 
 
 .body_content{
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin: 0 16vw;
   font-size: 12px;
 }
@@ -149,6 +155,9 @@ blockquote, q {
 .images_planos{
   display: flex;
   gap: 48px;
+}
+.images_planossize{
+  width: 15.1vw;
 }
 .content_listplanos{
   font-family: 'Inter';
@@ -174,9 +183,10 @@ blockquote, q {
   color: white;
   font-family: 'Inter';
   font-weight: 300;
-  gap: 54px;
+  gap: 6.45vw;
   background-color: #228296;
-  padding: 48px 100vw;
+  margin: 0 -16vw;
+  padding: 48px 10vw 48px 16vw;
 }
 .text_sobremim{
   display: flex;
@@ -186,6 +196,9 @@ blockquote, q {
 .title_sobremim2{
   display: none;
 }
+.image_sobremim1{
+  width: 17.2vw;
+}
 .title_sobremim{
   font-size: 16px;
   font-weight: 200;
@@ -194,7 +207,7 @@ blockquote, q {
   display: flex;
   flex-direction: column;
   gap:16px;
-  width: 715px;
+  width: 49.6vw;
 }
 .container_contato{
   display: flex;
@@ -222,16 +235,6 @@ blockquote, q {
   height: 72px;
 
 }
-
-#contato{
-  display: flex;
-  align-self: flex-start;
-}
-
-button_whatsapp{
-  display: block; 
-  height: 2500px;
-}
   
   #myBtn {
     position: fixed;
@@ -256,6 +259,7 @@ button_whatsapp{
       display: flex;
       flex-direction: column;
       gap:3.7vw;
+      font-size: 3vw;
     }
     .header{
       gap: 0;
@@ -270,7 +274,10 @@ button_whatsapp{
       margin: 0 0 5.81vw 0;
     }
     .logo_anatrindade{
-      font-size: 30px;
+      font-size: 6.97vw;
+    }
+    .logo_corretoradeplanos{
+      font-size: 2.5vw;
     }
     .icone_menu{
       display: flex;
@@ -283,6 +290,12 @@ button_whatsapp{
       height: 41.8vw;
       background-position: -50vw;
       justify-content: center;
+    }
+    .button_cotarplano{
+      font-size: 3.8vw;
+      padding:0 9vw 0 9vw;
+      margin-bottom: 3.8vw;
+      height: 16vw;
     }
     .body_content{
       display: flex;
@@ -331,5 +344,14 @@ button_whatsapp{
     }
     .content_sobremim{
       width: 84.41vw;
+    }
+  }
+
+  @media (max-width: 365px) {
+    .content_listplanos{
+      height: 240px;
+    }
+    .list_planos{
+      flex-wrap: nowrap;
     }
   }
