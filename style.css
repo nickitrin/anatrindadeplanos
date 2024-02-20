@@ -105,7 +105,7 @@ blockquote, q {
   display: flex;
   justify-content: center;
   align-items: end;
-  background-image: url("banner-1.png");
+  background-image: url("images/banner-1.png");
   background-size: cover;
   background-position: center center;
   height: 19vw;
